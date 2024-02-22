@@ -68,6 +68,18 @@ uchinchiTomon(4, 8);
 
 //////////////////////////
 
+oddAndEvent(9);
+
+function oddAndEvent(num) {
+  if (num % 2 == 0) {
+    console.log("Juft son");
+  } else {
+    console.log("Toq son");
+  }
+}
+
+///////////////////////////
+
 const son1 = Number(prompt("Birinchi sonni kiriting :"));
 const son2 = Number(prompt("Ikkinchi sonni kiriting :"));
 
@@ -91,16 +103,3 @@ switch (operator) {
 }
 
 //////////////////////////////////////////////////////////////
-
-oddAndEvent(9);
-
-function oddAndEvent(num) {
-  if (num % 2 == 0) {
-    console.log("Juft son");
-  } else {
-    console.log("Toq son");
-  }
-}
-
-///////////////////////////
-
